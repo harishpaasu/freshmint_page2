@@ -1,211 +1,128 @@
-.Ahoy {
-  width: 48px;
-  height: 27px;
-  margin: 8px 472px 45px 0;
-  font-family: Poppins;
-  font-size: 18px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
+body{
+  background-color: #fff7ef;
+  font-family: "Poppins", sans-serif;
+  
+  
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+
+.card {
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 350px;
+  
+}
+ 
+.card-img2 .card-img3.card-img4{
+  width:20px;
+  height:20px;  
+}
+.card-img2{
+  position: absolute;
+}
+.card-img3{
+  position: relative;
+left: 3%;}
+.card-img4{
+  position:relative;
+right: 2%;}
+.card-img5{
+  position:relative;
+right: 7%;}
+
+.card-p{
+  text-decoration: underline;
+  padding-left: 160px;
+}
+.card-img1 {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card-content {
   text-align: left;
-  color: #ed6d64;
+}
+
+.card-content h2 {
+  margin-top: 0;
+}
+
+.card-content button {
+  background-color: #ed6d64;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
   cursor: pointer;
-  padding:18px 0 0 212px ;
   
 }
 
-.Events {
-  width: 52px;
-  height: 24px;
-  margin: 8px 40px 48px 77px;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #000;
-  cursor: pointer;
-}
-.Community {
-  width: 95px;
-  height: 24px;
-  margin: 8px 40px 48px;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #000;
-  cursor: pointer;
-}
-.Profiles {
-  width: 57px;
-  height: 24px;
-  margin: 8px 6px 48px 40px;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #000;
-  cursor: pointer;
+.horizontal-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
 }
 
-.button-1{
-  width: 119px;
-  height: 40px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin: 0 0 40px 40px;
-  padding: 8px 25px;
-  border-radius: 20px;
+.navigation {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-width: px;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333; 
+  font-weight: bold;
+}
+
+.navigation button {
   background-color: #ed6d64;
-  cursor:grab
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  border-radius: 30px;
 }
 
-.Rectangle-18 {
-  width: 1440px;
-  height: 1477px;
-  padding: 10px 212px 887px;
-  background-color: #fff7ef;
+.content {
+  text-align: center; 
 }
 
 .Event-1 {
-  padding: 0 0 0 212px;
-  width: 134px;
-  height: 60px;
-  margin: 40px 386px 40px 0;
-  font-family: Poppins;
-  font-size: 40px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #000;
+  font-size: 2em; 
+  color: #333; 
+  margin-bottom: 20px;
 }
 
-.frame-2{
-  margin-left: 420px;
-}
-.button-2{
-  width: 153px;
-  height: 40px;
-  color:white;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin: 50px 0 50px 6px;
-  padding:8px 25px;
-  border-radius: 20px;
-  background-color: #000;
-  cursor: grab;
+.button-2 {
+  background-color: #000000; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 30px;
 }
 
-.flex-container .box-1{
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: start;
-}
-.box-1{
-  margin-left:200px ;
-}
-.box-2{
-  margin-left:50px ;
-}
 
-img{
-  width: 495px;
-  height: 200px;
-  flex-grow: 0;
-  margin: 0 0 0 1px;
-  padding: 30px 266px 65px 29px;
-}
-.Rectangle-23 {
-  width: 496px;
-  margin:20px solid black;
-  height: 200px;
-  flex-grow: 0;
-  margin: 0 0 0;
-  padding: 5px 5px 5px 5px;
-  background-color:white;
-}
+.container {
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 20px;}
 
-.StarkCon-IIT-Madras {
-  width: 266px;
-  height: 39px;
-  flex-grow: 0;
-  margin: 0 48px 0 0;
-  font-family: Poppins;
-  font-size: 26px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #000;
-}
 
-.IITM-Research-Park {
-  width: 148px;
-  height: 24px;
-  flex-grow: 0;
-  margin: 39px 166px 10px 0;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ed6d64;
-}
 
-.The-future-of-Web3-The-StarkWare-ZKX-Community-building-in-Web3 {
-  width: 330px;
-  height: 48px;
-  flex-grow: 0;
-  margin: 10px 98px 10px 0;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #000;
-}
 
-.Mangae-Event {
-  width: 114px;
-  height: 24px;
-  flex-grow: 0;
-  margin: 15px 0 1px 48px;
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #000;
-}
